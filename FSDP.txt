@@ -1,0 +1,28 @@
+Fuck this 
+ACTUALLY FUCK this
+GITHUB IS GASLIGHTING ME. 
+
+
+SERVER
+
+- express
+- cors
+- yup
+- sequelize mysql2
+- dotenv
+- nodemon --save-dev
+- nanoid@3
+- multer
+
+CLIENT
+
+- axios
+- dayjs
+- @mui/icons-material
+- react-router-dom
+- @mui/material @emotion/react @emotion/styled
+- formik yup
+- @mui/x-data-grid
+- mui-file-input --save
+- @mui/joy
+-recharts
