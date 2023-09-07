@@ -1,0 +1,81 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Charge Rental</title>
+    </head>
+    <body
+        style="font-family: Arial, sans-serif; margin: 0; padding: 0;"
+    >
+        <div
+            style="
+            max-width: 600px; 
+            margin: 0 auto; 
+            border: 1px solid #016670; 
+            background-color: #EDEAE5; 
+            padding: 20px;"
+        >
+            <div
+                style="
+                text-align: center; 
+                margin-bottom: 10px;"
+            >
+                <a href="https://imgur.com/KtlxJ1X"><img
+                        src="https://i.imgur.com/KtlxJ1X.png"
+                        title="source: imgur.com"
+                    /></a>
+            </div>
+
+            <div style="color: #016670; margin-bottom: 20px;">
+                <h1>Dear, {{name}}!</h1>
+                <p>We hope this email finds you well. We regret to inform you that your booking with Charge Car has been canceled.
+                </p>
+            </div>
+            <hr />
+            <div style="padding: 20px; background-color: #fdf9f1; ">
+                <h2 style="font-size: 18px; color: #016670;">Booking Details</h2>
+                <hr style="margin: 10px 0;" />
+                <p><strong>Car Model:</strong> {{carmodel}} </p>
+                <p><strong>Pick-up Date:</strong> {{formattedStartDate}}</p>
+                <p><strong>Return Date:</strong> {{formattedEndDate}}</p>
+                <p>
+                    The total cost is
+                    ${{totalcost}}
+                    and we have refund your Payment Card ending in
+                    {{cardinfo}}.
+                </p>
+                <hr />
+                <p>
+                    Thank you for considering Charge Car for your rental needs. 
+                    We apologize for any inconvenience this may have caused and look forward to serving you in the future.
+                </p>
+            </div>
+            <div style="padding: 15px">
+                <p style="color: #016670;">For every rental, you're making a
+                    positive impact by choosing our green cars. Thank you for
+                    helping us contribute to a more sustainable future.</p>
+            </div>
+            <div
+                style="background-color: #016670; padding: 20px; text-align: center; color: #ffffff;"
+            >
+                <p>If you have any questions or concerns regarding the cancellations, feel free to
+                    contact our support team.</p>
+            </div>
+
+            <footer
+                style="
+                text-align: center; 
+                margin-top: 20px;
+                font-size: 10px;"
+            >
+                <p>
+                    &copy;
+                    {{year}}
+                    Charge
+                </p>
+                <p>Email: electricchargecars@gmail.com | Phone: +65 88334669</p>
+
+            </footer>
+        </div>
+    </body>
+</html>

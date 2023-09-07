@@ -1,0 +1,95 @@
+<html>
+
+    <head>
+        <title>{{title}}</title>
+    </head>
+
+    <body>
+        <div
+            style="
+            max-width: 600px; 
+            margin: 0 auto; 
+            border: 1px solid #016670; 
+            background-color: #EDEAE5; 
+            padding: 20px;"
+        >
+            <div
+                style="
+                text-align: center; 
+                margin-bottom: 10px;"
+            >
+                <a href="https://imgur.com/KtlxJ1X"><img
+                        src="https://i.imgur.com/KtlxJ1X.png"
+                        title="source: imgur.com"
+                    /></a>
+            </div>
+
+            <div
+                style="
+                text-align: center; 
+                margin-bottom: 20px;"
+            >
+                <h2 style="color: #016670;">
+                    Your review posted on:
+                </h2>
+                <img
+                    style="border-radius: 15px; object-fit: cover;"
+                    src="cid:unique@nodemailer.com"
+                />
+            </div>
+            <hr> 
+            <div>
+                <h3
+                    style="
+                    color: #016670;
+                    text-align: center; 
+                    margin-bottom: 20px;"
+                >
+                    The Review: {{review}} was deemed offensive and inappropriate.
+                </h3>
+                <hr />
+                <h5
+                    style="
+                    color: #016670;"
+                >
+                    Report Information: 
+                </h5>
+                <p
+                    style="
+                    color: #016670
+                    margin-bottom: 20px;"
+                >
+                    <strong>Report Category: </strong> {{category}}
+                </p>
+                <hr />
+                <p
+                    style="
+                    color: #016670;"
+                >
+                    <strong>Additional Information: </strong> {{description}}
+                </p>
+                <hr>
+                <p
+                    style="
+                    color: #016670;"
+                >
+                Please note that further offenses may result in a permanent ban. Please refrain yourself from inappropriate reviews.
+            </div>
+
+            <footer
+                style="
+                text-align: center; 
+                margin-top: 20px;
+                font-size: 10px;"
+            >
+                <p>
+                    &copy;
+                    {{year}}
+                    Charge
+                </p>
+                <p>Email: electricchargecars@gmail.com | Phone: +65 81674532</p>
+            </footer>
+        </div>
+    </body>
+
+</html>

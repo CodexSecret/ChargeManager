@@ -1,0 +1,7 @@
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
+    width: 65%;
+}
