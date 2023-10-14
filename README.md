@@ -32,9 +32,9 @@ EMAIL_PASS = "rx58GZKEQACt0fLb"
 
 ## Default Admin Account Details ##
 
-Email: <admin@charge.com>
-Name: Charge Admin
-Username: Admin
+Email: <admin@charge.com>\
+Name: Charge Admin\
+Username: Admin\
 Password: ChargeAdmin123
 
 ---
