@@ -6,7 +6,7 @@
 
 VITE_API_BASE_URL = "<http://localhost:3001>"\
 VITE_FILE_BASE_URL = "<http://localhost:3001/uploads/>"\
-VITE_CHAT_FILE_URL = "<http://localhost:3001/chatImages/>"\
+VITE_CHAT_FILE_URL = "<http://localhost:3001/chatImages/>"
 
 ### Server Side .env Entries ###
 
@@ -18,7 +18,7 @@ DB_PWD = "charge"\
 DB_NAME = "chargecar"\
 APP_SECRET = "CnYyP9n5QWVGONLaWYyWuNybhwnzvw3C"\
 EMAIL_USER = "<electricchargecars@gmail.com>"\
-EMAIL_PASS = "rx58GZKEQACt0fLb"\
+EMAIL_PASS = "rx58GZKEQACt0fLb"
 
 ---
 
